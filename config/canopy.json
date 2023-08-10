@@ -1,0 +1,28 @@
+{
+  "prod": {
+    "label": { "none": ["Lane College Scrapbook"] },
+    "collection": "https://digital.lib.utk.edu/assemble/collection/collections/lanecol",
+    "summary": {
+      "none": [
+        "Lane College Scrapbook"
+      ]
+    },
+    "featured": [
+      "https://digital.lib.utk.edu/assemble/manifest/lanecol/95"
+    ],
+    "metadata": ["Subject", "Date", "Format"]
+  },
+  "dev": {
+    "label": { "none": ["Lane College Scrapbook"] },
+    "collection": "https://digital.lib.utk.edu/assemble/collection/collections/lanecol",
+    "summary": {
+      "none": [
+        "Lane College Scrapbook"
+      ]
+    },
+    "featured": [
+      "https://digital.lib.utk.edu/assemble/manifest/lanecol/95"
+    ],
+    "metadata": ["Subject", "Date", "Format"]
+  }
+}

@@ -1,7 +1,7 @@
 import { globalCss } from "@stitches/react";
 
 export const rem = 17;
-export const headerHeight = 59.5;
+export const headerHeight = 0;
 
 const defaults = {
   body: {

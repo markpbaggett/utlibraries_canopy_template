@@ -110,10 +110,7 @@ const Content = styled("div", {
 });
 
 const Wrapper = styled("header", {
-  position: "fixed",
   width: "100%",
-  zIndex: "10",
-  top: "0",
   display: "flex",
   flexDirection: "column",
   transition: "$canopyOpacity",
