@@ -1,13 +1,6 @@
-import {useEffect, useState} from "react";
 import { UTKUniversalHeader, UTKHeaderTop, UTKLogoWrapper, UTKLogo, UTKHeaderLinks } from "@/components/UTK_Header/UTKHeader.styled"
 
 const UTKHeader = () => {
-  const [baseUrl, setBaseUrl] = useState("");
-  useEffect(() => {
-    const {host, protocol} = window.location;
-    const root = `${protocol}//${host}`;
-    setBaseUrl(root);
-  }, []);
 
   return (
     <UTKUniversalHeader>
